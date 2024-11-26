@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const inputBuscar = document.getElementById('inputBuscar');
-    const btnBuscar = document.getElementById('btnBuscar');
-    const contenedor = document.getElementById('contenedor');
+    let inputBuscar = document.getElementById('inputBuscar');
+   let btnBuscar = document.getElementById('btnBuscar');
+    let contenedor = document.getElementById('contenedor');
   
     // Escuchar el evento de clic en el botón de búsqueda
     btnBuscar.addEventListener('click', async () => {
