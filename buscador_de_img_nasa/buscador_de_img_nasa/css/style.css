@@ -1,0 +1,42 @@
+main {
+    min-height: calc(100vh - 160px);
+  }
+  
+  /* Ajustes personalizados para las tarjetas */
+  .card {
+    border: 1px solid #ddd;
+    border-radius: 8px; /* Bordes redondeados */
+    transition: transform 0.3s, box-shadow 0.3s; /* Transición para hover */
+  }
+  
+  /* Efecto al pasar el cursor */
+  .card:hover {
+    transform: translateY(-5px); /* Eleva la tarjeta */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Agrega sombra */
+  }
+  
+  /* Imagen de la tarjeta */
+  .card-img-top {
+    height: 200px; /* Altura fija */
+    object-fit: cover; /* Mantener proporciones */
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Títulos */
+  .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  /* Texto del cuerpo */
+  .card-text {
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  /* Pie de la tarjeta */
+  .card-footer {
+    background-color: #f8f9fa;
+    border-top: 1px solid #ddd;
+  }
+  
